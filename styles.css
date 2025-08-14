@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #09122c, #1b1f3b);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navbar customization */
+.navbar {
+  background: linear-gradient(90deg, #3e0703, #ff4d6d);
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+/* Card styles */
+.card {
+  max-width: 250px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: linear-gradient(145deg, #ffaf40, #ff4d6d);
+  color: white;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Button style inside card */
+.card .btn {
+  background: #3e0703;
+  border: none;
+  color: #ffd700;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.card .btn:hover {
+  background: #ff4d6d;
+  color: white;
+  transform: scale(1.05);
+}
+
+footer {
+  background: linear-gradient(135deg, #ffaf40, #ff4d6d, #3e0703);
+}

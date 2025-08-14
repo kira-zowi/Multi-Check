@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MultiTask</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="roman.css"/>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg p-3"
+      style="background: linear-gradient(90deg, #3e0703, #ff4d6d)">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-light" href="index.html"
+          >MultiCheck</a>
+        <div>
+         <a  class="nav-link text-white d-inline mx-3" href="palindrome.html">Palindrome</a>
+          <a  class="nav-link text-white d-inline mx-3" href="roman.html">Roman</a>
+          <a class="nav-link text-white d-inline mx-3" href="telephone.html">Telephone</a>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Main content -->
+  <div class="container text-center my-5 flex-grow-1">
+    <h1 class="mb-3">Roman Numeral Converter</h1>
+
+    <div class="box mx-auto">
+      <p>Enter a Number:</p>
+      <input type="number" id="number" placeholder="Enter a number"/>
+      <button type="button" id="convert-btn">Convert</button>
+      <p id="output" class="mt-3"></p>
+    </div>
+
+    <div class="text mx-auto mt-3">
+      <p><span class="emoji">💡</span>
+        <span class="justified-text">
+            A numeral to Roman converter is a tool that changes a number into its Roman numeral equivalent, using the symbols I, V, X, L, C, D, and M. It follows standard rules for Roman numeral notation.
+
+        </span>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-auto text-center py-3" style="background: linear-gradient(135deg, #ffaf40, #ff4d6d, #3E0703); color: #fff;">
+    <p class="mb-1">&copy; 2025 Kira. All rights reserved.</p>
+    <p>Contact: <a href="mailto:zarzar076920@gmail.com" style="color:#ffd700;">zarzar076920@gmail.com</a></p>
+  </footer>
+
+  <script src="roman.js"></script>
+</body>
+</html>
